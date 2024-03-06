@@ -1,0 +1,13 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: black;
+}
+
+p {
+    /*The fourth parameter bellow is for opacity level*/ 
+    color: hsla(0, 6%, 46%, 0.5);
+}

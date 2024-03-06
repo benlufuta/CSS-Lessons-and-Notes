@@ -1,0 +1,25 @@
+body {
+
+    font-size: 22px;
+}
+
+p {
+
+    color: green;
+}
+
+.gray {
+
+    color:brown;
+}
+
+#title, h2 {
+
+    color: blue;
+}
+
+p span {
+
+    text-transform: uppercase;
+    background-color: gold;
+}
