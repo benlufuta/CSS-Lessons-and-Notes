@@ -1,0 +1,31 @@
+/* Importing the Roboto font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Setting the font family for the entire body to Roboto with fallback to sans-serif */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem; /* Setting the base font size to 1.5rem */
+}
+
+.columns {
+  /* Setting the number of columns to 4, each with a width of 250px */
+  columns: 4 250px;
+  column-rule: 3px solid black; /* Adding a solid black border between columns */
+  column-gap: 3rem; /* Setting the gap between columns to 3rem */
+}
+
+.columns p {
+  margin-top: 0; /* Removing top margin for paragraphs inside columns */
+}
+
+.columns .quote {
+  margin-top: 2rem; /* Adding top margin for elements with class 'quote' */
+  font-size: 3rem; /* Setting font size to 3rem for elements with class 'quote' */
+  text-align: center; /* Center-aligning text for elements with class 'quote' */
+  color: black; /* Setting text color to black for elements with class 'quote' */
+  column-span: all; /* Spanning the element across all columns */
+}
+
+.nowrap {
+  white-space: nowrap; /* Preventing wrapping for elements with class 'nowrap' */
+}
